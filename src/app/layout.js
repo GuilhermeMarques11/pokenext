@@ -1,6 +1,7 @@
 import Header from '@/components/header';
 import './globals.css';
 import Footer from '@/components/footer';
+import ScrollToTop from '@/components/scrollToTop';
 
 export const metadata = {
   title: 'PokeNext',
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <Footer />
+        <ScrollToTop />
       </body>
     </html>
   );
